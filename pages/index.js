@@ -1,9 +1,12 @@
 import Link from "next/link";
+import Services from "../components/Services";
+import Welcome from "../components/Welcome";
 
 export default function IndexPage() {
   return (
     <div>
-      <p className="text-2x1 font-bold text-red-400">Hola Mundo como andas</p>
+      <Welcome />
+      <Services />
     </div>
   );
 }
